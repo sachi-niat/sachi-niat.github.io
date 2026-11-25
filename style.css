@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #102a43;
+    background: #ffffff;
+    line-height: 1.7;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 8%;
+    border-bottom: 1px solid #dce8f2;
+    gap: 15px;
+    background: #ffffff;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+.logo span,
+h1 span {
+    color: #55a6df;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+
+nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #486581;
+}
+
+nav a:hover {
+    color: #1682c4;
+    text-decoration: underline;
+}
+
+section {
+    padding: 80px 12%;
+    border-bottom: 1px solid #dce8f2;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    min-height: 560px;
+    background: #ffffff;
+}
+
+.intro {
+    max-width: 660px;
+    flex: 2;
+}
+
+.small {
+    font-size: 11px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #627d98;
+}
+
+h1 {
+    font-size: 62px;
+    line-height: 1.1;
+    letter-spacing: -3px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    margin: 15px 0 35px;
+}
+
+h3 {
+    font-size: 21px;
+    line-height: 1.4;
+}
+
+p {
+    color: #486581;
+}
+
+.profile {
+    width: 220px;
+    height: 220px;
+    max-width: 100%;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #b8d8ed;
+    border-radius: 50%;
+    background: #dceefa;
+    color: #102a43;
+}
+
+.profile span {
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: -3px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+.button,
+button {
+    display: inline-block;
+    background: #102a43;
+    color: white;
+    padding: 12px 22px;
+    border: 1px solid #102a43;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.light {
+    background: white;
+    color: #102a43;
+}
+
+.button:hover,
+button:hover {
+    background: #1682c4;
+    border-color: #1682c4;
+    color: white;
+}
+
+.location {
+    margin-top: 35px;
+}
+
+.columns {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+}
+
+.columns > * {
+    flex: 1;
+    min-width: 0;
+}
+
+.alternate {
+    background: #f1f7fc;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards article {
+    flex: 1;
+    min-width: 200px;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid #d5e5f1;
+}
+
+.cards article h3 {
+    margin: 8px 0;
+}
+
+.projects article {
+    flex: 1 1 42%;
+}
+
+.project-image {
+    height: 155px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 22px;
+}
+
+.coming-soon {
+    background: #dceefa;
+    color: #102a43;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-top: 1px solid #c7dceb;
+    padding: 15px 0;
+}
+
+.education > p {
+    width: 140px;
+}
+
+.education h3 {
+    margin-bottom: 0;
+}
+
+#contact {
+    background: #102a43;
+    color: white;
+}
+
+#contact p {
+    color: #d5e5f1;
+}
+
+#contact a {
+    color: #8fd0ff;
+}
+
+#contact a:hover {
+    color: white;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffffff;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    font: inherit;
+    border: 1px solid #8aa9c2;
+    background: white;
+    color: #102a43;
+    border-radius: 2px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+form button {
+    background: #dceefa;
+    color: #102a43;
+    border-color: #dceefa;
+    margin-top: 12px;
+}
+
+form button:hover {
+    background: #8fd0ff;
+    border-color: #8fd0ff;
+    color: #102a43;
+}
+
+.form-note {
+    font-size: 12px;
+}
+
+footer {
+    padding: 18px 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #0b1f33;
+    color: white;
+    font-size: 13px;
+}
+
+footer p {
+    color: #b8cfe0;
+}
+
+footer a {
+    color: #8fd0ff;
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    section {
+        padding: 55px 7%;
+    }
+
+    .hero,
+    .columns {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 22px;
+    }
+
+    .columns > * {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 44px;
+        letter-spacing: -2px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .projects article {
+        flex-basis: 100%;
+    }
+
+    nav {
+        gap: 12px;
+    }
+}
